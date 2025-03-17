@@ -1,0 +1,1 @@
+g++ -O3 -s   VolumeCW.cpp -o VolumeCW.exe -I"A:\SFML-3.0.0\include" -L"A:\SFML-3.0.0\lib" -DSFML_STATIC -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lopengl32 -lgdi32 -lfreetype -lwinmm -lole32 -loleaut32 -luuid -lpthread -pthread -static-libgcc -static-libstdc++  VolumeCW_ICON.o -mwindows
